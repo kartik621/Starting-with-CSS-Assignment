@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Reveal on Hover</title>
+  <style>
+    .container {
+      text-align: center;
+      margin-top: 100px;
+    }
+    
+    .hidden-image {
+      display: none;
+    }
+    
+    .container:hover .hidden-image {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hover below to reveal a surprise</h1>
+    <img src="image.jpg" alt="Hidden Image" class="hidden-image">
+  </div>
+</body>
+</html>

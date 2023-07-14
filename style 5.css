@@ -1,0 +1,16 @@
+.container {
+    text-align: center;
+  }
+  
+  .hover-image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    transition: border-color 0.3s, border-radius 0.3s;
+  }
+  
+  .hover-image:hover {
+    border-color: #ff0000;  
+    border-radius: 50%;
+  }

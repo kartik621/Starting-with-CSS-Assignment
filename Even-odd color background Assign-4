@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech Stacks in Full-Stack Web Development</title>
+  <style>
+    li {
+      padding: 10px;
+    }
+    
+    li:nth-child(even) {
+      background-color: lightgray;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tech Stacks in Full-Stack Web Development</h1>
+  <ul>
+    <li>Front-end: HTML, CSS, JavaScript</li>
+    <li>Back-end: Node.js, Express.js</li>
+    <li>Database: MongoDB</li>
+    <li>Version Control: Git</li>
+    <li>Deployment: AWS, Heroku</li>
+  </ul>
+</body>
+</html>
+
+
